@@ -1,6 +1,6 @@
 baseURL: "/"
 languageCode: en-us
-title: "My Blog"
+title: "Bytes & Stuff"
 pagination:
   pagerSize: 5
 theme: PaperMod
@@ -15,9 +15,11 @@ minify:
   minifyOutput: true
 
 params:
-  title: "My Blog"
-  description: "Welcome to my personal blog"
-  author: "Your Name"
+  title: "Bytes & Stuff"
+  description: "A blog about the various things that occupy my mind."
+  descriptionShort: "A blog about the various things that occupy my mind."
+  descriptionLong: "Bytes & Stuff is my personal writing pad where I share my thoughts, ideas, and experiences on various topics that interest me. From technology to lifestyle, join me on this journey of exploration and discovery."
+  author: "Len Mahlangu"
   defaultTheme: auto
   ShowReadingTime: true
   ShowShareButtons: true

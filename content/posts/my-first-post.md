@@ -1,41 +1,20 @@
 ---
-title: "My First Blog Post"
+title: "Welcome"
 date: 2025-05-03
-description: "Welcome to my new Hugo blog!"
-tags: ["blog", "first-post"]
+description: "Welcome to Bytes & Stuff!"
+tags: ["home", "blog"]
 categories: ["general"]
 draft: false
 ---
 
-# Welcome to My Blog
+## Hello and welcome!
 
-This is my first blog post using Hugo and the PaperMod theme. I'm excited to start sharing my thoughts and experiences here.
+This is a space where I explore the ideas, experiences, and reflections that keep my mind engaged. From the latest in technology and the intricacies of leadership to the ever-evolving business landscape, the joys of travel, and the occasional wandering musings —this blog is my way of making sense of it all.
 
 ## What to Expect
 
-In this blog, I'll be writing about:
+Here, you can expect thoughtful insights, practical takeaways, and the occasional deep dive into topics that connect technology and humanity, leadership and growth, or simply the wonders of the world. Whether you’re here for inspiration, knowledge, or just a new perspective, I hope you’ll find something that resonates with you.
 
-- Technology
-- Programming
-- Personal experiences
-- And much more!
+Thank you for stopping by — let’s explore together!
 
-## Markdown Features
 
-Hugo supports rich markdown formatting, including:
-
-1. **Bold text** and *italic text*
-2. Code blocks:
-
-```python
-def hello_world():
-    print("Hello, Blog readers!")
-```
-
-3. And even tables:
-
-| Feature | Supported |
-|---------|-----------|
-| Markdown | ✅ |
-| Tags | ✅ |
-| Categories | ✅ |
