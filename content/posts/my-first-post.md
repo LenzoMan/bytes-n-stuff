@@ -6,8 +6,7 @@ tags: ["home", "blog"]
 categories: ["general"]
 draft: false
 ---
-
-## Hello and welcome!
+## Hello and Welcome!
 
 This is a space where I explore the ideas, experiences, and reflections that keep my mind engaged. From the latest in technology and the intricacies of leadership to the ever-evolving business landscape, the joys of travel, and the occasional wandering musings —this blog is my way of making sense of it all.
 
