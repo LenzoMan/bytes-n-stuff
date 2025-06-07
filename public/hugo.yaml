@@ -1,0 +1,41 @@
+baseURL: "https://lenmahlangu.online/"
+languageCode: "en-us"
+title: "Bytes & Stuff"
+theme: "PaperMod"
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: "Bytes & Stuff"
+  description: "A blog about the various things that occupy my mind."
+  descriptionShort: "A blog about the various things that occupy my mind."
+  descriptionLong: "Bytes & Stuff is my personal writing pad where I share my thoughts, ideas, and experiences on various topics that interest me. From technology to lifestyle, join me on this journey of exploration and discovery."
+  author: "Len Mahlangu"
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+
+menu:
+  main:
+    - identifier: archives
+      name: Archives
+      url: /archives/
+      weight: 10
+    - identifier: categories
+      name: Categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
