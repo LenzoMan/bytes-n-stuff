@@ -13,4 +13,4 @@ For more reflections, visit my blog at [Len Mahlangu's Blog](https://lenmahlangu
 
 
 
-https://lenmahlangu.blogspot.com/?view=timeslide
+https://lenmahlangu.blogspot.com/?view=timeslidehu
