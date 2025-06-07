@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Bytes &amp; Stuff</title>
-    <link>https://lenzoman.github.io/tags/</link>
+    <link>https://yourcustomdomain.com/tags/</link>
     <description>Recent content in Tags on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lenzoman.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yourcustomdomain.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog</title>
-      <link>https://lenzoman.github.io/tags/blog/</link>
+      <link>https://yourcustomdomain.com/tags/blog/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://lenzoman.github.io/tags/blog/</guid>
+      <guid>https://yourcustomdomain.com/tags/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Home</title>
-      <link>https://lenzoman.github.io/tags/home/</link>
+      <link>https://yourcustomdomain.com/tags/home/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://lenzoman.github.io/tags/home/</guid>
+      <guid>https://yourcustomdomain.com/tags/home/</guid>
       <description></description>
     </item>
   </channel>
