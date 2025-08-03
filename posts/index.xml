@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Bytes &amp; Stuff</title>
-    <link>http://localhost:1313/posts/</link>
+    <link>https://lenmahlangu.online/posts/</link>
     <description>Recent content in Posts on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Growing Up</title>
-      <link>http://localhost:1313/posts/reflection-one/</link>
-      <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reflection-one/</guid>
-      <description>The pains of growing up</description>
+      <title>Thinking in prompts: How AI is reshaping our minds</title>
+      <link>https://lenmahlangu.online/posts/thinking-in-prompts/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/thinking-in-prompts/</guid>
+      <description>The impact of AI on our writing and, as such, our thought processes</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://lenmahlangu.online/posts/my-first-post/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
       <description>Welcome to Bytes &amp;amp; Stuff!</description>
     </item>
   </channel>
