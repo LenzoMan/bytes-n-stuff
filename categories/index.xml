@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Bytes &amp; Stuff</title>
-    <link>https://lenmahlangu.online/categories/</link>
+    <link>http://localhost:1313/categories/</link>
     <description>Recent content in Categories on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lenmahlangu.online/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Technology</title>
-      <link>https://lenmahlangu.online/categories/technology/</link>
+      <link>http://localhost:1313/categories/technology/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
-      <guid>https://lenmahlangu.online/categories/technology/</guid>
+      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>General</title>
-      <link>https://lenmahlangu.online/categories/general/</link>
+      <link>http://localhost:1313/categories/general/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>https://lenmahlangu.online/categories/general/</guid>
+      <guid>http://localhost:1313/categories/general/</guid>
       <description></description>
     </item>
   </channel>
