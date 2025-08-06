@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Bytes &amp; Stuff</title>
     <link>https://lenmahlangu.online/tags/</link>
     <description>Recent content in Tags on Bytes &amp; Stuff</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lenmahlangu.online/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,8 +16,16 @@
       <guid>https://lenmahlangu.online/tags/ai/</guid>
       <description></description>
     </item>
+||||||| bf58523
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/tags/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> d0976ce18f482a920e7c588378b8a4159f44da0c
     <item>
       <title>Blog</title>
+<<<<<<< HEAD
       <link>https://lenmahlangu.online/tags/blog/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://lenmahlangu.online/tags/blog/</guid>
@@ -34,6 +43,15 @@
       <link>https://lenmahlangu.online/tags/writing/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>https://lenmahlangu.online/tags/writing/</guid>
+||||||| bf58523
+      <link>http://localhost:1313/tags/blog/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/blog/</guid>
+=======
+      <link>https://lenmahlangu.online/tags/blog/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/tags/blog/</guid>
+>>>>>>> d0976ce18f482a920e7c588378b8a4159f44da0c
       <description></description>
     </item>
     <item>
