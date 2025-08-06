@@ -38,7 +38,7 @@ This is a personal blog built with [Hugo](https://gohugo.io/) using the [PaperMo
    ```sh
    cd public
    git init
-   git remote add origin https://github.com/LenzoMan/lenzoman.github.io.git
+   git remote add origin https://github.com/LenzoMan/bytes-n-stuff.git 
    git add .
    git commit -m "Deploy site"
    git branch -M main
