@@ -6,8 +6,15 @@
     <description>Recent content in Blog on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.147.1</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Thinking in prompts: How AI is reshaping our minds</title>
+      <link>http://localhost:1313/posts/thinking-in-prompts/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/thinking-in-prompts/</guid>
+      <description>The impact of AI on our writing and, as such, our thought process.</description>
+    </item>
     <item>
       <title>Welcome</title>
       <link>http://localhost:1313/posts/my-first-post/</link>
