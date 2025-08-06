@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Bytes &amp; Stuff</title>
     <link>https://lenmahlangu.online/posts/</link>
     <description>Recent content in Posts on Bytes &amp; Stuff</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
+<<<<<<< HEAD
     <lastBuildDate>Sun, 03 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://lenmahlangu.online/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
@@ -15,12 +16,27 @@
       <guid>https://lenmahlangu.online/posts/thinking-in-prompts/</guid>
       <description>The impact of AI on our writing and, as such, our thought process.</description>
     </item>
+||||||| bf58523
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+=======
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/posts/index.xml" rel="self" type="application/rss+xml" />
+>>>>>>> d0976ce18f482a920e7c588378b8a4159f44da0c
     <item>
       <title>Welcome</title>
       <link>https://lenmahlangu.online/posts/my-first-post/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+<<<<<<< HEAD
       <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
       <description>Welcome to Bytes &amp;amp; Stuff!</description>
+||||||| bf58523
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <description>Welcome to Bytes &amp;amp; Stuff!</description>
+=======
+      <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
+      <description>&lt;h2 id=&#34;hello-and-welcome&#34;&gt;Hello and Welcome!&lt;/h2&gt;&#xA;&lt;p&gt;This is a space where I explore the ideas, experiences, and reflections that keep my mind engaged. From the latest in technology and the intricacies of leadership to the ever-evolving business landscape, the joys of travel, and the occasional wandering musings —this blog is my way of making sense of it all.&lt;/p&gt;&#xA;&lt;h2 id=&#34;what-to-expect&#34;&gt;What to Expect&lt;/h2&gt;&#xA;&lt;p&gt;Here, you can expect thoughtful insights, practical takeaways, and the occasional deep dive into topics that connect technology and humanity, leadership and growth, or simply the wonders of the world. Whether you’re here for inspiration, knowledge, or just a new perspective, I hope you’ll find something that resonates with you.&lt;/p&gt;</description>
+>>>>>>> d0976ce18f482a920e7c588378b8a4159f44da0c
     </item>
   </channel>
 </rss>
