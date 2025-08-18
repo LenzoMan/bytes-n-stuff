@@ -2,43 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://lenmahlangu.online/tags/ai/</loc>
     <lastmod>2025-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://lenmahlangu.online/tags/blog/</loc>
     <lastmod>2025-08-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ai/</loc>
+    <loc>https://lenmahlangu.online/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/categories/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/posts/ai-in-the-batter/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/tags/leadership/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/posts/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/tags/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/categories/technology/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/tags/technology/</loc>
+    <lastmod>2025-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://lenmahlangu.online/posts/thinking-in-prompts/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://lenmahlangu.online/tags/writing/</loc>
     <lastmod>2025-08-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/technology/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/technology/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/thinking-in-prompts/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/writing/</loc>
-    <lastmod>2025-08-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/general/</loc>
+    <loc>https://lenmahlangu.online/categories/general/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/home/</loc>
+    <loc>https://lenmahlangu.online/tags/home/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-post/</loc>
+    <loc>https://lenmahlangu.online/posts/my-first-post/</loc>
     <lastmod>2025-05-03T00:00:00+00:00</lastmod>
   </url>
 </urlset>
