@@ -4,7 +4,7 @@ date: 2025-08-17
 description: "Why AI Alone Won't Accelerate Software Delivery."
 tags: ["technology", "blog", "AI", "leadership"]
 categories: ["technology"]
-draft: true
+draft: false
 ---
 The excitement around AI in software development is everywhere. Every week, new tools promise to boost productivity, accelerate delivery, and raise the quality bar. Yet in many organisations, the impact of AI has been underwhelming. Not because the technology isn’t powerful, but because old habits, entrenched bureaucracy, and ritualised ways of work are quietly holding teams back.
 
