@@ -1,6 +1,6 @@
 ---
 title: "Habits, Hierarchies, and Rituals - The Real AI Challenge"
-date: 2025-08-17
+date: 2025-08-20
 description: "Why AI Alone Won't Accelerate Software Delivery."
 tags: ["technology", "blog", "AI", "leadership"]
 categories: ["technology"]
