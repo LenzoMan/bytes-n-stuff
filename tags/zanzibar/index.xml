@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zanzibar on Bytes &amp; Stuff</title>
+    <link>http://localhost:1313/tags/zanzibar/</link>
+    <description>Recent content in Zanzibar on Bytes &amp; Stuff</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 14 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/zanzibar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lost in Stone Town: A Midnight Adventure</title>
+      <link>http://localhost:1313/posts/midnight-adventure/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/midnight-adventure/</guid>
+      <description>&lt;h2 id=&#34;lost-in-stone-town-a-midnight-adventure&#34;&gt;Lost in Stone Town: A Midnight Adventure&lt;/h2&gt;&#xA;&lt;p&gt;Travelling has a way of humbling you; just when you think you’ve seen it all, a new city reminds you that you’re only scratching the surface. Earlier this year I set off for Zanzibar, a trip I had been looking forward to for ages. I imagined warm evenings, coastal breezes, and the gentle rhythm of island life. What I got on the first night was something closer to a crash course in survival travel.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
