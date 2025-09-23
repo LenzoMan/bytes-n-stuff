@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Technology on Bytes &amp; Stuff</title>
     <link>http://localhost:1313/categories/technology/</link>
     <description>Recent content in Technology on Bytes &amp; Stuff</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.148.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/posts/ai-blueberry-muffin/</link>
       <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/ai-blueberry-muffin/</guid>
-      <description>&lt;p&gt;The excitement around AI in software development is everywhere. Every week, new tools promise to boost productivity, accelerate delivery, and raise the quality bar. Yet in many organisations, the impact of AI has been underwhelming. Not because the technology isn’t powerful, but because old habits, entrenched bureaucracy, and ritualised ways of work are quietly holding teams back.&lt;/p&gt;&#xA;&lt;p&gt;Let’s unpack this.&lt;/p&gt;&#xA;&lt;h3 id=&#34;old-habits-result-in-retrofitting-instead-of-rethinking&#34;&gt;Old Habits Result in Retrofitting Instead of Rethinking&lt;/h3&gt;&#xA;&lt;p&gt;Software delivery teams are creatures of habit. Developers, testers, analysts, and product owners have refined their methods over years, influenced by the prevailing wisdom of waterfall and agile. These practices have become a gospel called “the way things are done.”&lt;/p&gt;</description>
+      <description>Why AI Alone Won&amp;#39;t Accelerate Software Delivery.</description>
     </item>
     <item>
       <title>Thinking in prompts: How AI is reshaping our minds</title>
       <link>http://localhost:1313/posts/thinking-in-prompts/</link>
       <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/thinking-in-prompts/</guid>
-      <description>&lt;p&gt;I recently came across a few pieces arguing that AI is eroding our ability to write, and along with it, our ability to think clearly. I get the point. If machines can write for us, then what happens to our own voice, our ability to wrestle with ideas, or even just put coherent thoughts together?&lt;/p&gt;&#xA;&lt;p&gt;But here’s the twist: the way we use AI today, especially tools like ChatGPT, is primarily through writing. Not polished, publish-ready writing, but something far more subtle and surprisingly complex: the prompt.&lt;/p&gt;</description>
+      <description>The impact of AI on our writing and, as such, our thought process.</description>
     </item>
   </channel>
 </rss>
