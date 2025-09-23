@@ -6,7 +6,7 @@ tags: ["travel", "Zanzibar", "adventure"]
 categories: ["travel"]
 draft: false
 ---
-## Lost in Stone Town: A Midnight Adventure
+
 
 Travelling has a way of humbling you; just when you think you’ve seen it all, a new city reminds you that you’re only scratching the surface. Earlier this year I set off for Zanzibar, a trip I had been looking forward to for ages. I imagined warm evenings, coastal breezes, and the gentle rhythm of island life. What I got on the first night was something closer to a crash course in survival travel.
 
