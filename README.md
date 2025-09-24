@@ -36,7 +36,7 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
 ## Updating Content
 
 - Add new posts in `my-blogsite/content/posts/` using Markdown files.
-- To mark a post as archived, add `archived: true` to its front matter.
+- To mark a post as archived, add `archived: true` to its front massh -T git@github.comtter.
 - To publish a post, set `draft: false` in its front matter.
 
 ## Deploying (Automated Worktree Flow)
@@ -110,6 +110,16 @@ General tips:
 - Avoid committing generated site files to `main` (only source + `public/`).
 - Review the script before modifying deployment behavior.
 
+## SSH Configuration
+
+For deploying via SSH, ensure your `~/.ssh/config` includes:
+
+```
+Host github.com
+  Hostname ssh.github.com
+  Port 443
+  User git
+```
 
 ---
 
