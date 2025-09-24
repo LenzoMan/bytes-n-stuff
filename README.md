@@ -110,16 +110,6 @@ General tips:
 - Avoid committing generated site files to `main` (only source + `public/`).
 - Review the script before modifying deployment behavior.
 
-## SSH Configuration
-
-For deploying via SSH, ensure your `~/.ssh/config` includes:
-
-```
-Host github.com
-  Hostname ssh.github.com
-  Port 443
-  User git
-```
 
 ---
 
