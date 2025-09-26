@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>General on Bytes &amp; Stuff</title>
-    <link>http://localhost:1313/categories/general/</link>
+    <link>https://lenmahlangu.online/categories/general/</link>
     <description>Recent content in General on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 18 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/general/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lenmahlangu.online/categories/general/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Getting Comfortable with the Uncomfortable</title>
-      <link>http://localhost:1313/posts/uncertainty/</link>
+      <link>https://lenmahlangu.online/posts/uncertainty/</link>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/uncertainty/</guid>
+      <guid>https://lenmahlangu.online/posts/uncertainty/</guid>
       <description>Why resisting uncertainty fuels fear, and how leaning into the discomfort opens the door to possibility</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://lenmahlangu.online/posts/my-first-post/</link>
       <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
       <description>Welcome to Bytes &amp;amp; Stuff!</description>
     </item>
   </channel>
