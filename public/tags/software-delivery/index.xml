@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Software-Delivery on Bytes &amp; Stuff</title>
-    <link>http://localhost:1313/tags/software-delivery/</link>
+    <link>https://lenmahlangu.online/tags/software-delivery/</link>
     <description>Recent content in Software-Delivery on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/software-delivery/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lenmahlangu.online/tags/software-delivery/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are Engineers too Far From The Product?</title>
-      <link>http://localhost:1313/posts/product-engineering/</link>
+      <link>https://lenmahlangu.online/posts/product-engineering/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/product-engineering/</guid>
+      <guid>https://lenmahlangu.online/posts/product-engineering/</guid>
       <description>How closing the gap between Product and Engineering can unlock both speed and sharper outcomes</description>
     </item>
   </channel>
