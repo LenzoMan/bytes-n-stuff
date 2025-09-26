@@ -4,7 +4,7 @@ date: 2025-09-18
 description: "Why resisting uncertainty fuels fear, and how leaning into the discomfort opens the door to possibility"
 tags: ["general", "blog", "life", "uncertainty"]
 categories: ["general"]
-draft: true
+draft: false
 ---
 ## Getting Comfortable with the Uncomfortable
 
@@ -23,4 +23,3 @@ Each time I do, I learn something powerful: uncertainty is not the monster I tho
 So maybe the goal is not to conquer fear or eliminate doubt. Maybe it is simply to build the muscle of showing up anyway. To let “I do not know” become a place of possibility instead of paralysis.
 
 Because when you stop resisting uncertainty, you realise it is not a problem to solve, it is the condition we were built to live in.
-

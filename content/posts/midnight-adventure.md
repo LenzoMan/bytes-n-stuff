@@ -4,7 +4,7 @@ date: 2025-09-14
 description: "One midnight misstep in Zanzibar showed us that the best adventures rarely go according to plan."
 tags: ["travel", "Zanzibar", "adventure"]
 categories: ["travel"]
-draft: false
+draft: true
 ---
 
 
