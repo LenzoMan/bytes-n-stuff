@@ -1,0 +1,24 @@
+# Hugo build output
+/public/
+/hugo_build.lock
+/resources/_gen/
+
+# Deployment worktree
+/_ghp_worktree/
+
+# OS and editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Mac cruft
+.Trashes
+.AppleDouble
+.LSOverride
+
+# User files (avoid accidentally including home directory paths)
+*/Library/
+*/Pictures/
+*/Desktop/
+*/Documents/
