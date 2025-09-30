@@ -1,7 +1,7 @@
 ---
 title: "Whose name, Whose Power: Rethinking Marriage Traditions"
 date: 2025-09-23
-description: "A reflection on the Constitutional Court ruling that lets men take their wives’ surnames, and what it reveals about the colonial roots of our so-called marriage traditions."
+description: ""
 tags: ["general", "society", "marriage", "politics",]
 categories: ["politics"]
 draft: true

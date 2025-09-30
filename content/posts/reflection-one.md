@@ -1,7 +1,7 @@
 ---
 title: "Growing Up"
 date: 2025-06-01
-description: "The pains of growing up"
+description: ""
 tags: ["reflections", "blog"]
 categories: ["general"]
 draft: true

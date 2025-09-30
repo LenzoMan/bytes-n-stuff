@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home on Bytes &amp; Stuff</title>
+    <link>https://lenmahlangu.online/tags/home/</link>
+    <description>Recent content in Home on Bytes &amp; Stuff</description>
+    <generator>Hugo -- 0.147.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 03 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/tags/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome</title>
+      <link>https://lenmahlangu.online/posts/my-first-post/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
+      <description>Welcome to Bytes &amp;amp; Stuff!</description>
+    </item>
+  </channel>
+</rss>

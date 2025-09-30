@@ -1,12 +1,11 @@
 ---
 title: "Getting Comfortable with the Uncomfortable"
 date: 2025-09-18
-description: "Why resisting uncertainty fuels fear, and how leaning into the discomfort opens the door to possibility"
+description: ""
 tags: ["general", "blog", "life", "uncertainty"]
 categories: ["general"]
 draft: false
 ---
-## Getting Comfortable with the Uncomfortable
 
 I stumbled across a passage recently that hit me like a cold splash of water: it is not uncertainty that paralyses us, it is our resistance to it.
 

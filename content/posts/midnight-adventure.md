@@ -1,7 +1,7 @@
 ---
 title: "Lost in Stone Town: A Midnight Adventure"
 date: 2025-09-14
-description: "One midnight misstep in Zanzibar showed us that the best adventures rarely go according to plan."
+description: ""
 tags: ["travel", "Zanzibar", "adventure"]
 categories: ["travel"]
 draft: true

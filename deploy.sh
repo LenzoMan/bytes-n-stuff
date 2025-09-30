@@ -1,15 +1,13 @@
 #!/bin/zsh
 set -euo pipefail
 
-# Always run from the script's directory (project root)
-cd "$(dirname "$0")"
-
 ### Configuration ###
 MAIN_BRANCH="main"
 PUBLISH_BRANCH="gh-pages"
-WORKTREE_DIR="_ghp_worktree"  # Now inside project root
+WORKTREE_DIR="../_ghp_worktree"
 SITE_DIR="public"
 DOMAIN_FILE_CONTENT="lenmahlangu.online"
+ALLOWED_SOURCE_ROOT="$(pwd)"
 
 echo "==> Ensuring on $MAIN_BRANCH branch"
 current_branch=$(git rev-parse --abbrev-ref HEAD)
@@ -37,7 +35,6 @@ if [[ ! -d "$SITE_DIR" ]]; then
 	exit 1
 fi
 
-
 echo "==> Preparing clean worktree for $PUBLISH_BRANCH at $WORKTREE_DIR"
 rm -rf "$WORKTREE_DIR"
 git worktree prune || true
@@ -46,14 +43,6 @@ if git ls-remote --exit-code origin "$PUBLISH_BRANCH" >/dev/null 2>&1; then
 	git worktree add -B "$PUBLISH_BRANCH" "$WORKTREE_DIR" "origin/$PUBLISH_BRANCH"
 else
 	git worktree add -B "$PUBLISH_BRANCH" "$WORKTREE_DIR"
-fi
-
-# Safety: ensure worktree is inside project root
-PROJECT_ROOT="$(pwd)"
-WT_ABS="$(cd "$WORKTREE_DIR" && pwd)"
-if [[ "$WT_ABS" != "$PROJECT_ROOT"/* ]]; then
-	echo "ERROR: Worktree path escapes project root!" >&2
-	exit 1
 fi
 
 echo "==> Wiping existing files in publish worktree (keeping .git)"

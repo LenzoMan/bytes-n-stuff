@@ -1,7 +1,7 @@
 ---
 title: "Are Engineers too Far From The Product?"
 date: 2025-09-26
-description: "How closing the gap between Product and Engineering can unlock both speed and sharper outcomes"
+description: ""
 tags: ["technology", "AI", "software-delivery", "product-engineering"]
 categories: ["technology"]
 draft: false
