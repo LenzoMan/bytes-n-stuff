@@ -80,11 +80,11 @@ rsync -a --delete public/ ../_ghp_worktree/
 echo "lenmahlangu.online" > ../_ghp_worktree/CNAME
 touch ../_ghp_worktree/.nojekyll
 
-cd ../_ghp_worktree
+`cd ../_ghp_worktree
 git add -A
 git commit -m "deploy: manual publish" || echo "No changes"
 git push origin gh-pages
-cd -
+cd -`
 ```
 
 ## Cleaning Up

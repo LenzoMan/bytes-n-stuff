@@ -1,7 +1,7 @@
 ---
 title: "Thinking in prompts: How AI is reshaping our minds"
 date: 2025-08-03
-description: "
+description: ""
 tags: ["technology", "blog", "AI", "writing"]
 categories: ["technology"]
 draft: false
