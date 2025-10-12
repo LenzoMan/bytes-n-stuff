@@ -4,7 +4,7 @@ set -euo pipefail
 ### Configuration ###
 MAIN_BRANCH="main"
 PUBLISH_BRANCH="gh-pages"
-WORKTREE_DIR="../_ghp_worktree"
+WORKTREE_DIR="./_ghp_worktree"
 SITE_DIR="public"
 DOMAIN_FILE_CONTENT="lenmahlangu.online"
 ALLOWED_SOURCE_ROOT="$(pwd)"
@@ -46,10 +46,15 @@ else
 fi
 
 echo "==> Wiping existing files in publish worktree (keeping .git)"
+# Extra safety check for worktree path
+if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+    echo "ERROR: Worktree directory does not appear to be a git worktree" >&2
+    exit 4
+fi
 find "$WORKTREE_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 
 echo "==> Syncing $SITE_DIR -> worktree (only repo content)"
-rsync -a --delete "$SITE_DIR"/ "$WORKTREE_DIR"/
+rsync -a --delete --no-links --safe-links "$SITE_DIR"/ "$WORKTREE_DIR"/
 
 echo "==> Ensuring CNAME and .nojekyll"
 echo "$DOMAIN_FILE_CONTENT" > "$WORKTREE_DIR/CNAME"
