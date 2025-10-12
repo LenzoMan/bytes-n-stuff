@@ -36,16 +36,34 @@ if [[ ! -d "$SITE_DIR" ]]; then
 fi
 
 echo "==> Preparing clean worktree for $PUBLISH_BRANCH at $WORKTREE_DIR"
-rm -rf "$WORKTREE_DIR"
-git worktree prune || true
+# Remove existing worktree if it exists
+if [[ -d "$WORKTREE_DIR" ]]; then
+    git worktree remove -f "$WORKTREE_DIR" 2>/dev/null || rm -rf "$WORKTREE_DIR"
+fi
 
-# Ensure the directory exists
-mkdir -p "$WORKTREE_DIR"
+# Prune any stale worktree references
+git worktree prune
 
+# Ensure parent directory exists
+mkdir -p "$(dirname "$WORKTREE_DIR")"
+
+# Create new worktree
 if git ls-remote --exit-code origin "$PUBLISH_BRANCH" >/dev/null 2>&1; then
-	git worktree add -f -B "$PUBLISH_BRANCH" "$WORKTREE_DIR" "origin/$PUBLISH_BRANCH"
+    git worktree add --force -B "$PUBLISH_BRANCH" "$WORKTREE_DIR" "origin/$PUBLISH_BRANCH"
 else
-	git worktree add -f -B "$PUBLISH_BRANCH" "$WORKTREE_DIR"
+    git worktree add --force -B "$PUBLISH_BRANCH" "$WORKTREE_DIR"
+fi
+
+# Verify worktree setup
+echo "==> Verifying worktree setup"
+if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+    echo "Waiting for Git worktree setup..."
+    sleep 2  # Give Git a moment to complete setup
+fi
+
+if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+    echo "ERROR: Failed to properly initialize git worktree" >&2
+    exit 4
 fi
 
 # Give Git a moment to set up the worktree
