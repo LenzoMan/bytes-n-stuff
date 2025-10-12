@@ -39,11 +39,17 @@ echo "==> Preparing clean worktree for $PUBLISH_BRANCH at $WORKTREE_DIR"
 rm -rf "$WORKTREE_DIR"
 git worktree prune || true
 
+# Ensure the directory exists
+mkdir -p "$WORKTREE_DIR"
+
 if git ls-remote --exit-code origin "$PUBLISH_BRANCH" >/dev/null 2>&1; then
-	git worktree add -B "$PUBLISH_BRANCH" "$WORKTREE_DIR" "origin/$PUBLISH_BRANCH"
+	git worktree add -f -B "$PUBLISH_BRANCH" "$WORKTREE_DIR" "origin/$PUBLISH_BRANCH"
 else
-	git worktree add -B "$PUBLISH_BRANCH" "$WORKTREE_DIR"
+	git worktree add -f -B "$PUBLISH_BRANCH" "$WORKTREE_DIR"
 fi
+
+# Give Git a moment to set up the worktree
+sleep 1
 
 echo "==> Wiping existing files in publish worktree (keeping .git)"
 # Extra safety check for worktree path
