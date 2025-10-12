@@ -15,7 +15,7 @@ But here is the kicker: that craving for certainty is exactly what keeps us stuc
 
 Every tradition, from philosophy to neuroscience, has been saying the same thing: life is uncertain, and trying to control it is an illusion. When I sit with that truth, it is both terrifying and freeing. Terrifying, because it means there are no guarantees. Freeing, because it means I can stop waiting for the perfect moment, because it is never coming.
 
-Lately, I have realised that the only way through uncertainty is to actually lean into it. To feel the discomfort without rushing to fix it. To start the project I do not feel “ready” for. To have the conversation without rehearsing every line in my head. To press “publish” even when the voice in my head says, “Not yet”.
+I, now realise that the only way through uncertainty is to actually lean into it. To feel the discomfort without rushing to fix it. To start the project I do not feel “ready” for. To have the conversation without rehearsing every line in my head. To press “publish” even when the voice in my head says, “Not yet”.
 
 Each time I do, I learn something powerful: uncertainty is not the monster I thought it was. It is just the normal backdrop of life. And the more I walk into it, the less it scares me.
 
