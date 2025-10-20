@@ -9,6 +9,9 @@ SITE_DIR="public"
 DOMAIN_FILE_CONTENT="lenmahlangu.online"
 ALLOWED_SOURCE_ROOT="$(pwd)"
 
+echo "==> Setting remote URL to SSH over port 443"
+git remote set-url origin "ssh://git@ssh.github.com:443/LenzoMan/bytes-n-stuff.git"
+
 echo "==> Ensuring on $MAIN_BRANCH branch"
 current_branch=$(git rev-parse --abbrev-ref HEAD)
 if [[ "$current_branch" != "$MAIN_BRANCH" ]]; then
@@ -104,8 +107,7 @@ else
 fi
 
 echo "==> Pushing gh-pages"
-# Switch to SSH to avoid token issues
-git remote set-url origin "git@github.com:LenzoMan/bytes-n-stuff.git"
+# SSH URL is already set
 git push -f origin "$PUBLISH_BRANCH"
 
 popd >/dev/null
