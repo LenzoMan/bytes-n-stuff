@@ -98,17 +98,20 @@ fi
 
 git add -A
 if git diff --cached --quiet; then
-	echo "No site changes to publish."
+	echo "No changes to publish."
 else
-	# Final guard: ensure no paths outside (should not occur after wipe & rsync)
-	if git diff --cached --name-only | grep -E '^\.\./' >/dev/null; then
-		echo "ERROR: Detected paths escaping worktree. Aborting publish." >&2
-		exit 3
-	fi
 	git commit -m "deploy: publish updated site"
-	echo "==> Pushing $PUBLISH_BRANCH"
-	git push origin "$PUBLISH_BRANCH"
 fi
+
+echo "==> Pushing gh-pages"
+# Switch to SSH to avoid token issues
+git remote set-url origin "git@github.com:LenzoMan/bytes-n-stuff.git"
+git push -f origin "$PUBLISH_BRANCH"
+
 popd >/dev/null
+
+echo "==> Cleaning up"
+# Remove the worktree directory after publishing
+rm -rf "$WORKTREE_DIR"
 
 echo "==> Done. Preview: https://$DOMAIN_FILE_CONTENT/"
