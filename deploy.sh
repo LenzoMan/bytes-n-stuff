@@ -9,8 +9,8 @@ SITE_DIR="public"
 DOMAIN_FILE_CONTENT="lenmahlangu.online"
 ALLOWED_SOURCE_ROOT="$(pwd)"
 
-echo "==> Setting remote URL to SSH over port 443"
-git remote set-url origin "ssh://git@ssh.github.com:443/LenzoMan/bytes-n-stuff.git"
+echo "==> Setting remote URL to HTTPS"
+git remote set-url origin "https://github.com/LenzoMan/bytes-n-stuff.git"
 
 echo "==> Ensuring on $MAIN_BRANCH branch"
 current_branch=$(git rev-parse --abbrev-ref HEAD)
