@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Product-Engineering on Bytes &amp; Stuff</title>
-    <link>https://lenmahlangu.online/tags/product-engineering/</link>
+    <link>http://localhost:1313/tags/product-engineering/</link>
     <description>Recent content in Product-Engineering on Bytes &amp; Stuff</description>
     <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://lenmahlangu.online/tags/product-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/product-engineering/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Are Engineers too Far From The Product?</title>
-      <link>https://lenmahlangu.online/posts/product-engineering/</link>
+      <link>http://localhost:1313/posts/product-engineering/</link>
       <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://lenmahlangu.online/posts/product-engineering/</guid>
+      <guid>http://localhost:1313/posts/product-engineering/</guid>
       <description>&lt;p&gt;We like to blame slow delivery on process, resourcing, or governance. But what if the real issue is simpler — our engineers don’t truly understand the product they’re building?&lt;/p&gt;
 &lt;p&gt;Too often, developers work in the dark. They know their codebase but not their customer; they execute sprint goals without grasping the pain points that gave rise to them. Many will never use the products they build. In large corporations, especially, software delivery teams are tucked away as backend functions, separated from the client by layers of business units and reporting. That distance makes customer needs feel abstract, even irrelevant.&lt;/p&gt;</description>
     </item>
