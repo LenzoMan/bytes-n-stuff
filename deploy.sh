@@ -56,12 +56,12 @@ fi
 
 # Verify worktree setup
 echo "==> Verifying worktree setup"
-if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+if [[ ! -f "$WORKTREE_DIR/.git" ]]; then
     echo "Waiting for Git worktree setup..."
     sleep 2  # Give Git a moment to complete setup
 fi
 
-if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+if [[ ! -f "$WORKTREE_DIR/.git" ]]; then
     echo "ERROR: Failed to properly initialize git worktree" >&2
     exit 4
 fi
@@ -71,7 +71,7 @@ sleep 1
 
 echo "==> Wiping existing files in publish worktree (keeping .git)"
 # Extra safety check for worktree path
-if [[ ! -d "$WORKTREE_DIR/.git" ]]; then
+if [[ ! -f "$WORKTREE_DIR/.git" ]]; then
     echo "ERROR: Worktree directory does not appear to be a git worktree" >&2
     exit 4
 fi
