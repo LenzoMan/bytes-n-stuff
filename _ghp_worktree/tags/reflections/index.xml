@@ -2,18 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Reflections on Bytes &amp; Stuff</title>
-    <link>http://localhost:1313/tags/reflections/</link>
+    <link>https://lenmahlangu.online/tags/reflections/</link>
     <description>Recent content in Reflections on Bytes &amp; Stuff</description>
-    <generator>Hugo -- 0.147.1</generator>
+    <generator>Hugo -- 0.150.0</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 01 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/reflections/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://lenmahlangu.online/tags/reflections/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Growing Up</title>
-      <link>http://localhost:1313/posts/reflection-one/</link>
+      <link>https://lenmahlangu.online/posts/reflection-one/</link>
       <pubDate>Sun, 01 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/reflection-one/</guid>
-      <description>The pains of growing up</description>
+      <guid>https://lenmahlangu.online/posts/reflection-one/</guid>
+      <description>&lt;h2 id=&#34;the-pains-of-growing-up&#34;&gt;The Pains of Growing Up&lt;/h2&gt;
+&lt;p&gt;Text here about the pains of growing up. It can be difficult to navigate the challenges and changes that come with growing up, but it&amp;rsquo;s also a time of learning and growth.
+For more reflections, visit my blog at &lt;a href=&#34;https://lenmahlangu.blogspot.com/?view=timeslide&#34;&gt;Len Mahlangu&amp;rsquo;s Blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://lenmahlangu.blogspot.com/?view=timeslidehu&#34;&gt;https://lenmahlangu.blogspot.com/?view=timeslidehu&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
