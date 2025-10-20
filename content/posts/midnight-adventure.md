@@ -1,10 +1,10 @@
 ---
 title: "Lost in Stone Town: A Midnight Adventure"
 date: 2025-09-14
-description: ""
+description: "A tale of getting lost in the winding streets of Stone Town, Zanzibar"
 tags: ["travel", "Zanzibar", "adventure"]
 categories: ["travel"]
-draft: true
+draft: false
 ---
 
 
