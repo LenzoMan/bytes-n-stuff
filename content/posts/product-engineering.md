@@ -6,7 +6,7 @@ tags: ["technology", "AI", "software-delivery", "product-engineering"]
 categories: ["technology"]
 draft: false
 ---
-We like to blame slow delivery on process, resourcing, or governance. But what if the real issue is simpler — our engineers don’t truly understand the product they’re building?
+We like to blame slow delivery on process, resourcing, or governance. But what if the real issue is simpler - our engineers don’t truly understand the product they’re building?
 
 Too often, developers work in the dark. They know their codebase but not their customer; they execute sprint goals without grasping the pain points that gave rise to them. Many will never use the products they build. In large corporations, especially, software delivery teams are tucked away as backend functions, separated from the client by layers of business units and reporting. That distance makes customer needs feel abstract, even irrelevant.
 
@@ -16,4 +16,4 @@ The Claude Code team shows what this looks like at scale. Their engineers ship w
 
 This is the direction modern engineering needs to move. Engineers cannot remain detached executors; they must become product-savvy. AI only sharpens this need. With automated tests, IDE-based static checks, security guardrails in the form of instruction files, and AI-first code reviews for lower-level quality checks, speed no longer has to mean sloppiness. AI takes care of the basics so engineers can focus on building features that matter.
 
-The role of the engineer is evolving. They are no longer just coders — they are explorers, prototypers, and product thinkers. Companies that embrace this will deliver sharper products at greater pace. Those that don’t will fall behind, not because they lack talent, but because their engineers are too far from the product.
+The role of the engineer is evolving. They are no longer just coders - they are explorers, prototypers, and product thinkers. Companies that embrace this will deliver sharper products at greater pace. Those that don’t will fall behind, not because they lack talent, but because their engineers are too far from the product.
