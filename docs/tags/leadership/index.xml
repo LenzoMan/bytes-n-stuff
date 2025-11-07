@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Leadership on Bytes &amp; Stuff</title>
+    <link>https://lenmahlangu.online/tags/leadership/</link>
+    <description>Recent content in Leadership on Bytes &amp; Stuff</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 20 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/tags/leadership/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Habits, Hierarchies, and Rituals - The Real AI Challenge</title>
+      <link>https://lenmahlangu.online/posts/ai-blueberry-muffin/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/ai-blueberry-muffin/</guid>
+      <description>&lt;p&gt;The excitement around AI in software development is everywhere. Every week, new tools promise to boost productivity, accelerate delivery, and raise the quality bar. Yet in many organisations, the impact of AI has been underwhelming. Not because the technology isn’t powerful, but because old habits, entrenched bureaucracy, and ritualised ways of work are quietly holding teams back.&lt;/p&gt;
+&lt;p&gt;Let’s unpack this.&lt;/p&gt;
+&lt;h3 id=&#34;old-habits-result-in-retrofitting-instead-of-rethinking&#34;&gt;Old Habits Result in Retrofitting Instead of Rethinking&lt;/h3&gt;
+&lt;p&gt;Software delivery teams are creatures of habit. Developers, testers, analysts, and product owners have refined their methods over years, influenced by the prevailing wisdom of waterfall and agile. These practices have become a gospel called “the way things are done.”&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

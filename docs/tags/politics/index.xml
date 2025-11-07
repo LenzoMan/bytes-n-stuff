@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Politics on Bytes &amp; Stuff</title>
+    <link>http://localhost:1313/tags/politics/</link>
+    <description>Recent content in Politics on Bytes &amp; Stuff</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/politics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Whose name, Whose Power: Rethinking Marriage Traditions</title>
+      <link>http://localhost:1313/posts/politics-of-marriage/</link>
+      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/politics-of-marriage/</guid>
+      <description>&lt;p&gt;Every few years our courts hand down a ruling that feels bigger than the law itself; one that pokes at our traditions and forces us to confront how much of what we call “ours” actually isn’t. The Constitutional Court’s recent ruling that men are free to take their wives’ surnames is exactly that kind of moment. On the surface, it looks like a quirky, even amusing change; but beneath it lies centuries of history, patriarchy, and colonial baggage.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

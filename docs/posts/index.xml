@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Bytes &amp; Stuff</title>
+    <link>https://lenmahlangu.online/posts/</link>
+    <description>Recent content in Posts on Bytes &amp; Stuff</description>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 07 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenmahlangu.online/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consistency Over Perfection: My First Toastmasters Experience</title>
+      <link>https://lenmahlangu.online/posts/toastmasters/</link>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/toastmasters/</guid>
+      <description>&lt;p&gt;I had my very first taste of a Toastmasters event recently, and what fun it was.
+Walking in, I didn’t know much about how things worked. I told myself I was simply there to observe, listen, and learn. The theme of the evening was “consistency over perfection,” and the members brought it to life in full colour.&lt;/p&gt;
+&lt;p&gt;From the soft-spoken to the confident, from those with neatly prepared crib notes to those who spoke purely from memory, each person had their own style, their own rhythm, and their own way of connecting. Every delivery carried its unique “perfect imperfection.” And with every round of constructive feedback, there was something for everyone to take away.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Are Engineers too Far From The Product?</title>
+      <link>https://lenmahlangu.online/posts/product-engineering/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/product-engineering/</guid>
+      <description>&lt;p&gt;We like to blame slow delivery on process, resourcing, or governance. But what if the real issue is simpler - our engineers don’t truly understand the product they’re building?&lt;/p&gt;
+&lt;p&gt;Too often, developers work in the dark. They know their codebase but not their customer; they execute sprint goals without grasping the pain points that gave rise to them. Many will never use the products they build. In large corporations, especially, software delivery teams are tucked away as backend functions, separated from the client by layers of business units and reporting. That distance makes customer needs feel abstract, even irrelevant.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Getting Comfortable with the Uncomfortable</title>
+      <link>https://lenmahlangu.online/posts/uncertainty/</link>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/uncertainty/</guid>
+      <description>&lt;p&gt;I stumbled across a passage recently that hit me like a cold splash of water: it is not uncertainty that paralyses us, it is our resistance to it.&lt;/p&gt;
+&lt;p&gt;Think about it. Uncertainty is everywhere. Life does not come with guarantees, and yet we spend so much of our time trying to wrestle it into something predictable. We want the perfect plan before we take the first step. We want assurance before risk. We want to know we will succeed before we even start.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Lost in Stone Town: A Midnight Adventure</title>
+      <link>https://lenmahlangu.online/posts/midnight-adventure/</link>
+      <pubDate>Sun, 14 Sep 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/midnight-adventure/</guid>
+      <description>A tale of getting lost in the winding streets of Stone Town, Zanzibar</description>
+    </item>
+    <item>
+      <title>Habits, Hierarchies, and Rituals - The Real AI Challenge</title>
+      <link>https://lenmahlangu.online/posts/ai-blueberry-muffin/</link>
+      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/ai-blueberry-muffin/</guid>
+      <description>&lt;p&gt;The excitement around AI in software development is everywhere. Every week, new tools promise to boost productivity, accelerate delivery, and raise the quality bar. Yet in many organisations, the impact of AI has been underwhelming. Not because the technology isn’t powerful, but because old habits, entrenched bureaucracy, and ritualised ways of work are quietly holding teams back.&lt;/p&gt;
+&lt;p&gt;Let’s unpack this.&lt;/p&gt;
+&lt;h3 id=&#34;old-habits-result-in-retrofitting-instead-of-rethinking&#34;&gt;Old Habits Result in Retrofitting Instead of Rethinking&lt;/h3&gt;
+&lt;p&gt;Software delivery teams are creatures of habit. Developers, testers, analysts, and product owners have refined their methods over years, influenced by the prevailing wisdom of waterfall and agile. These practices have become a gospel called “the way things are done.”&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Thinking in prompts: How AI is reshaping our minds</title>
+      <link>https://lenmahlangu.online/posts/thinking-in-prompts/</link>
+      <pubDate>Sun, 03 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/thinking-in-prompts/</guid>
+      <description>&lt;p&gt;I recently came across a few pieces arguing that AI is eroding our ability to write, and along with it, our ability to think clearly. I get the point. If machines can write for us, then what happens to our own voice, our ability to wrestle with ideas, or even just put coherent thoughts together?&lt;/p&gt;
+&lt;p&gt;But here’s the twist: the way we use AI today, especially tools like ChatGPT, is primarily through writing. Not polished, publish-ready writing, but something far more subtle and surprisingly complex: the prompt.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>https://lenmahlangu.online/posts/my-first-post/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://lenmahlangu.online/posts/my-first-post/</guid>
+      <description>Welcome to Bytes &amp;amp; Stuff!</description>
+    </item>
+  </channel>
+</rss>
