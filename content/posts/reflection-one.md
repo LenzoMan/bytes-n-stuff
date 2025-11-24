@@ -4,7 +4,7 @@ date: 2025-06-01
 description: ""
 tags: ["reflections", "blog"]
 categories: ["general"]
-draft: false
+draft: true
 archive: true
 ---
 ## The Pains of Growing Up

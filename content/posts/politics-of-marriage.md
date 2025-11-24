@@ -4,7 +4,8 @@ date: 2025-09-23
 description: ""
 tags: ["general", "society", "marriage", "politics",]
 categories: ["politics"]
-draft: false
+draft: true
+archive: true
 ---
 
 Every few years our courts hand down a ruling that feels bigger than the law itself; one that pokes at our traditions and forces us to confront how much of what we call “ours” actually isn’t. The Constitutional Court’s recent ruling that men are free to take their wives’ surnames is exactly that kind of moment. On the surface, it looks like a quirky, even amusing change; but beneath it lies centuries of history, patriarchy, and colonial baggage.
