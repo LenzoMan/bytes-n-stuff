@@ -35,13 +35,14 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
 
 ## Updating Content
 
-- Add new posts in `my-blogsite/content/posts/` using Markdown files.
-- To mark a post as archived, add `archived: true` to its front massh -T git@github.comtter.
-- To publish a post, set `draft: false` in its front matter.
+- Add new posts in `content/posts/` using Markdown files.
+- To publish a post, set `draft: false` in its front matter. Posts with `draft: true` will not appear on the live site.
+- To mark a post as archived, add `archive: true` to its front matter (optional for custom handling).
+- The site is built with `buildDrafts: false`, so only published posts (`draft: false`) appear on the live site.
 
 ## Deploying (Automated Worktree Flow)
 
-Deployment uses a dedicated `gh-pages` branch that contains **only the built site**. The source (content, config, theme) lives on `main`.
+Deployment uses a dedicated `gh-pages` branch that contains **only the built site**. The source (content, config, theme) lives on `main`. The site is served from the custom domain `lenmahlangu.online` via GitHub Pages.
 
 Run the deploy script from the project root:
 
@@ -60,7 +61,13 @@ What it does:
 7. Ensures `CNAME` (custom domain) and `.nojekyll` exist.
 8. Commits & pushes to `gh-pages` only if there are changes.
 
-The live site (GitHub Pages) serves from `gh-pages` / root.
+**Custom Domain Setup:**
+
+- The `CNAME` file is stored in `static/CNAME` and automatically included in Hugo builds.
+- GitHub Pages is configured to use the `gh-pages` branch as the source.
+- The custom domain must be verified in GitHub repository **Settings > Pages**.
+
+The live site is served at `https://lenmahlangu.online/` from the `gh-pages` branch.
 
 ## Manual Deployment (Fallback)
 
@@ -72,19 +79,19 @@ hugo
 
 # Recreate worktree
 rm -rf ../_ghp_worktree
-git worktree add -B gh-pages ../_ghp_worktree origin/gh-pages 2>/dev/null || \
-git worktree add -B gh-pages ../_ghp_worktree
+git worktree add -B gh-pages ../_ghp_worktree origin/gh-pages
 
 # Sync build output
 rsync -a --delete public/ ../_ghp_worktree/
 echo "lenmahlangu.online" > ../_ghp_worktree/CNAME
 touch ../_ghp_worktree/.nojekyll
 
-`cd ../_ghp_worktree
+# Commit and push
+cd ../_ghp_worktree
 git add -A
 git commit -m "deploy: manual publish" || echo "No changes"
 git push origin gh-pages
-cd -`
+cd -
 ```
 
 ## Cleaning Up
@@ -97,11 +104,12 @@ cd -`
 
 | Issue | Cause | Fix |
 |-------|-------|-----|
-| New post 404s | Not yet published to `gh-pages` | Run `./deploy.sh` and wait 1–2 min |
-| Custom domain lost | Missing `CNAME` after publish | Script recreates it; rerun deploy |
+| Post not appearing on live site | Post marked as `draft: true` | Set `draft: false` in front matter, rebuild, and redeploy |
+| New post 404s | Not yet published to `gh-pages` | Run `./deploy.sh` and wait 1–2 min for GitHub Pages to rebuild |
+| Site shows 404 at custom domain | GitHub Pages not configured for custom domain | Verify DNS records and GitHub **Settings > Pages** has custom domain set |
+| Custom domain lost | Missing `CNAME` in `gh-pages` | Ensure `static/CNAME` exists with domain name, rebuild, and redeploy |
 | `fatal: 'gh-pages' is already used by worktree` | Stale worktree dir | `rm -rf ../_ghp_worktree && git worktree prune` then redeploy |
-| No layout warnings | Custom template overrides missing | Safe to ignore unless pages render incorrectly |
-| Nothing to publish | No changes in `public/` | Make content edits, rebuild |
+| Nothing to publish | No changes detected in `public/` | Make content edits or force rebuild with `hugo`, then redeploy |
 | Wrong branch during deploy | Started on `gh-pages` | Checkout `main`, run script |
 
 General tips:
