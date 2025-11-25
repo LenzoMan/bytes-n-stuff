@@ -1,7 +1,7 @@
 # Hugo build output
 /public/
-/hugo_build.lock
-/resources/_gen/
+.hugo_build.lock
+/resources/
 
 # Deployment worktree
 /_ghp_worktree/
@@ -9,8 +9,10 @@
 # OS and editor
 .DS_Store
 .idea/
-.vscode/
 *.swp
+*.swo
+*~
+Thumbs.db
 
 # Mac cruft
 .Trashes
