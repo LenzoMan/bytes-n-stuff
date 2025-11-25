@@ -1,0 +1,33 @@
+{
+  "files.exclude": {
+    "public/**": true,
+    "resources/**": true,
+    ".hugo_build.lock": true,
+    "node_modules": true
+  },
+  "search.exclude": {
+    "public": true,
+    "resources": true,
+    "themes": true,
+    ".git": true
+  },
+  "[markdown]": {
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "editor.rulers": [80, 120]
+  },
+  "[yaml]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "files.associations": {
+    "*.yaml": "yaml"
+  },
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true
+}
