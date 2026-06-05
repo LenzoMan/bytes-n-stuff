@@ -7,8 +7,8 @@ WORKTREE_DIR="../_ghp_worktree"
 SITE_DIR="public"
 DOMAIN_FILE_CONTENT="lenmahlangu.online"
 
-if [[ ! -d .git ]]; then
-	echo "ERROR: run this script from the repository root." >&2
+if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
+	echo "ERROR: run this script from inside the repository." >&2
 	exit 1
 fi
 
@@ -56,7 +56,7 @@ echo "==> Cleaning publish worktree"
 find "$WORKTREE_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 
 echo "==> Syncing $SITE_DIR to publish worktree"
-rsync -a --delete "$SITE_DIR"/ "$WORKTREE_DIR"/
+rsync -a --delete --exclude='.git' "$SITE_DIR"/ "$WORKTREE_DIR"/
 
 echo "==> Ensuring CNAME and .nojekyll"
 echo "$DOMAIN_FILE_CONTENT" > "$WORKTREE_DIR/CNAME"
