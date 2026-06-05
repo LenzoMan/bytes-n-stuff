@@ -50,16 +50,23 @@ Run the deploy script from the project root:
 ./deploy.sh
 ```
 
+Recommended one-time setup for HTTPS pushes:
+
+```sh
+gh auth setup-git
+```
+
 What it does:
 
-1. Ensures you are on `main` and pulls latest.
-2. Commits any source changes (if there are staged differences).
-3. Runs `hugo` to (re)generate `public/`.
-4. Creates / refreshes a worktree at `../_ghp_worktree` pointing at `gh-pages`.
-5. Wipes existing files in that worktree (except its `.git`).
-6. Copies the contents of `public/` into the worktree.
-7. Ensures `CNAME` (custom domain) and `.nojekyll` exist.
-8. Commits & pushes to `gh-pages` only if there are changes.
+1. Ensures you are on `main`.
+2. Fails fast if the working tree is dirty (commit/stash first).
+3. Pulls latest `main` with fast-forward only.
+4. Runs `hugo` to (re)generate `public/`.
+5. Creates / refreshes a worktree at `../_ghp_worktree` pointing at `gh-pages`.
+6. Wipes existing files in that worktree (except its `.git` metadata).
+7. Copies the contents of `public/` into the worktree.
+8. Ensures `CNAME` (custom domain) and `.nojekyll` exist.
+9. Commits and pushes to `gh-pages` only if there are changes.
 
 **Custom Domain Setup:**
 
@@ -111,6 +118,7 @@ cd -
 | `fatal: 'gh-pages' is already used by worktree` | Stale worktree dir | `rm -rf ../_ghp_worktree && git worktree prune` then redeploy |
 | Nothing to publish | No changes detected in `public/` | Make content edits or force rebuild with `hugo`, then redeploy |
 | Wrong branch during deploy | Started on `gh-pages` | Checkout `main`, run script |
+| `Could not resolve host: github.com` | Temporary DNS/network outage | Retry when network is back; verify with `ping github.com` or `nslookup github.com` |
 
 General tips:
 
