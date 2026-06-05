@@ -54,7 +54,6 @@ Your post content starts here...
 | `draft` | Yes | Set to `false` to publish, `true` to hide |
 | `tags` | No | Array of tags for organization |
 | `categories` | No | Array of categories for grouping |
-| `archive` | No | Set to `true` for archived posts (optional) |
 
 ## Writing Guidelines
 

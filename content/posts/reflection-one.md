@@ -5,7 +5,6 @@ description: ""
 tags: ["reflections", "blog"]
 categories: ["general"]
 draft: true
-archive: true
 ---
 ## The Pains of Growing Up
 

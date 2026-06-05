@@ -38,7 +38,6 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
 
 - Add new posts in `content/posts/` using Markdown files.
 - To publish a post, set `draft: false` in its front matter. Posts with `draft: true` will not appear on the live site.
-- To mark a post as archived, add `archive: true` to its front matter (optional for custom handling).
 - The site is built with `buildDrafts: false`, so only published posts (`draft: false`) appear on the live site.
 
 ## Deploying (Automated Worktree Flow)
