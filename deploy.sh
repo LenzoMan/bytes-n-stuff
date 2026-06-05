@@ -64,7 +64,11 @@ touch "$WORKTREE_DIR/.nojekyll"
 
 pushd "$WORKTREE_DIR" >/dev/null
 echo "==> Preparing commit on $PUBLISH_BRANCH"
-git checkout -B "$PUBLISH_BRANCH"
+current_publish_branch=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$current_publish_branch" != "$PUBLISH_BRANCH" ]]; then
+	echo "ERROR: Expected worktree on '$PUBLISH_BRANCH' but found '$current_publish_branch'." >&2
+	exit 5
+fi
 git add -A
 
 if git diff --cached --quiet; then
