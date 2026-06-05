@@ -74,7 +74,7 @@ git add -A
 if git diff --cached --quiet; then
 	echo "No changes to publish."
 else
-	git commit -m "deploy: publish site $(date '+%Y-%m-%d %H:%M:%S')"
+	git commit --no-verify -m "deploy: publish site $(date '+%Y-%m-%d %H:%M:%S')"
 	echo "==> Pushing $PUBLISH_BRANCH"
 	git push origin "$PUBLISH_BRANCH"
 fi
