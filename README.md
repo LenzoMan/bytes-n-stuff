@@ -32,6 +32,7 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
    ```
 
 2. The static site will be generated in the `public/` directory.
+3. `public/` is a local build artifact and is not tracked on `main`.
 
 ## Updating Content
 
@@ -123,7 +124,7 @@ cd -
 General tips:
 
 - Always keep `hugo.yaml` baseURL aligned with the custom domain.
-- Avoid committing generated site files to `main` (only source + `public/`).
+- Avoid committing generated site files to `main` (source files only; `public/` stays local).
 - Review the script before modifying deployment behavior.
 
 

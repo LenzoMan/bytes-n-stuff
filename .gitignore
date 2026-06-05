@@ -2,6 +2,20 @@
 /public/
 .hugo_build.lock
 /resources/
+/docs/
+/404.html
+/CNAME
+/index.html
+/index.xml
+/robots.txt
+/sitemap.xml
+/.nojekyll
+/categories/
+/page/
+/posts/
+/reflection-one/
+/tags/
+/assets/css/stylesheet.*.css
 
 # Deployment worktree
 /_ghp_worktree/

@@ -157,6 +157,7 @@ Use the following prefixes for clarity:
 ❌ **Don't:**
 - Edit files in the `public/` directory directly
 - Commit the `public/` directory to the main branch
+- Commit generated HTML, XML, or publish artifacts from the repo root or `docs/`
 - Modify `themes/PaperMod/` directly (it's a Git submodule)
 - Delete or rename posts without using `git mv`
 - Push directly to the `gh-pages` branch
