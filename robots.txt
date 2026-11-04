@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://lenmahlangu.online/sitemap.xml
+Sitemap: https://lenzoman.github.io/bytes-n-stuff/sitemap.xml
