@@ -3,12 +3,11 @@ set -e
 
 echo "📋 Running pre-deployment checks..."
 
-# Check CNAME exists
-if [ ! -f "static/CNAME" ]; then
-    echo "❌ Missing static/CNAME file"
+if [ -e "static/CNAME" ]; then
+    echo "❌ Remove static/CNAME when deploying to the default GitHub Pages URL"
     exit 1
 fi
-echo "✅ CNAME file found"
+echo "✅ No custom domain configured"
 
 # Check no accidental issues in front matter
 echo "🔍 Checking post front matter..."
@@ -20,7 +19,7 @@ done
 
 # Validate Hugo build
 echo "🔨 Building site with Hugo..."
-if ! hugo; then
+if ! hugo --cleanDestinationDir; then
     echo "❌ Hugo build failed"
     exit 1
 fi
@@ -32,6 +31,11 @@ if [ ! -d "public" ] || [ -z "$(ls -A public)" ]; then
     exit 1
 fi
 echo "✅ Public directory populated"
+
+if [ -e "public/CNAME" ]; then
+    echo "❌ Build output contains an unexpected CNAME file"
+    exit 1
+fi
 
 echo ""
 echo "✅ All pre-deployment checks passed!"

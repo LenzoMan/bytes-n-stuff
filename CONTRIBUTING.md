@@ -227,7 +227,7 @@ Before running `./deploy.sh`, verify:
 - [ ] Posts marked as `draft: false` are ready for publication
 - [ ] No accidental files in root directory
 - [ ] Hugo builds without errors: `hugo`
-- [ ] `static/CNAME` contains the correct domain
+- [ ] `hugo.yaml` baseURL is `https://lenzoman.github.io/bytes-n-stuff/` and no `static/CNAME` exists
 - [ ] `.git/` directory is present
 - [ ] Run `./scripts/pre-deploy-check.sh` passes
 

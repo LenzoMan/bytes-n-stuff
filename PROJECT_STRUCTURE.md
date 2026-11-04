@@ -14,7 +14,6 @@ my-blogsite/
 │   │   └── ... (other post files)
 │   └── ... (other content directories)
 ├── static/
-│   ├── CNAME               🔒 Custom domain (lenmahlangu.online)
 │   ├── favicon.ico
 │   └── ... (other static files)
 ├── themes/
@@ -147,7 +146,7 @@ Before modifying `hugo.yaml` or theme files:
 
 ### Before deploying, verify
 
-- [ ] `static/CNAME` contains `lenmahlangu.online`
+- [ ] `hugo.yaml` baseURL is `https://lenzoman.github.io/bytes-n-stuff/` and no `static/CNAME` exists
 - [ ] Hugo builds without errors: `hugo`
 - [ ] `public/` directory exists and isn't empty
 - [ ] All posts have proper front matter

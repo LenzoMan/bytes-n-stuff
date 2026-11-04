@@ -5,7 +5,6 @@ MAIN_BRANCH="main"
 PUBLISH_BRANCH="gh-pages"
 WORKTREE_DIR="../_ghp_worktree"
 SITE_DIR="public"
-DOMAIN_FILE_CONTENT="lenmahlangu.online"
 
 if ! git rev-parse --is-inside-work-tree >/dev/null 2>&1; then
 	echo "ERROR: run this script from inside the repository." >&2
@@ -29,7 +28,7 @@ echo "==> Pulling latest $MAIN_BRANCH"
 git pull --ff-only origin "$MAIN_BRANCH"
 
 echo "==> Building site with Hugo"
-hugo
+hugo --cleanDestinationDir
 if [[ ! -d "$SITE_DIR" ]]; then
 	echo "ERROR: Build output directory '$SITE_DIR' not found." >&2
 	exit 3
@@ -58,8 +57,7 @@ find "$WORKTREE_DIR" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
 echo "==> Syncing $SITE_DIR to publish worktree"
 rsync -a --delete --exclude='.git' "$SITE_DIR"/ "$WORKTREE_DIR"/
 
-echo "==> Ensuring CNAME and .nojekyll"
-echo "$DOMAIN_FILE_CONTENT" > "$WORKTREE_DIR/CNAME"
+echo "==> Ensuring .nojekyll"
 touch "$WORKTREE_DIR/.nojekyll"
 
 pushd "$WORKTREE_DIR" >/dev/null
@@ -83,4 +81,4 @@ popd >/dev/null
 echo "==> Cleaning up worktree"
 rm -rf "$WORKTREE_DIR"
 
-echo "==> Done. Live site: https://$DOMAIN_FILE_CONTENT/"
+echo "==> Done. Live site: https://lenzoman.github.io/bytes-n-stuff/"

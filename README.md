@@ -21,14 +21,14 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
    hugo serve
    ```
 
-3. Visit [http://localhost:1313](http://localhost:1313) in your browser to preview the site.
+3. Visit [http://localhost:1313/bytes-n-stuff/](http://localhost:1313/bytes-n-stuff/) in your browser to preview the site.
 
 ## Building the Site for Production
 
 1. From the project root, run:
 
    ```sh
-   hugo
+   hugo --cleanDestinationDir
    ```
 
 2. The static site will be generated in the `public/` directory.
@@ -42,7 +42,7 @@ Personal blog built with [Hugo](https://gohugo.io/) + [PaperMod](https://github.
 
 ## Deploying (Automated Worktree Flow)
 
-Deployment uses a dedicated `gh-pages` branch that contains **only the built site**. The source (content, config, theme) lives on `main`. The site is served from the custom domain `lenmahlangu.online` via GitHub Pages.
+Deployment uses a dedicated `gh-pages` branch that contains **only the built site**. The source (content, config, theme) lives on `main`. The site is served at `https://lenzoman.github.io/bytes-n-stuff/` via GitHub Pages.
 
 Run the deploy script from the project root:
 
@@ -61,20 +61,20 @@ What it does:
 1. Ensures you are on `main`.
 2. Fails fast if the working tree is dirty (commit/stash first).
 3. Pulls latest `main` with fast-forward only.
-4. Runs `hugo` to (re)generate `public/`.
+4. Runs `hugo --cleanDestinationDir` to regenerate `public/` and remove stale output.
 5. Creates / refreshes a worktree at `../_ghp_worktree` pointing at `gh-pages`.
 6. Wipes existing files in that worktree (except its `.git` metadata).
 7. Copies the contents of `public/` into the worktree.
-8. Ensures `CNAME` (custom domain) and `.nojekyll` exist.
+8. Ensures `.nojekyll` exists.
 9. Commits and pushes to `gh-pages` only if there are changes.
 
-**Custom Domain Setup:**
+**GitHub Pages Setup:**
 
-- The `CNAME` file is stored in `static/CNAME` and automatically included in Hugo builds.
-- GitHub Pages is configured to use the `gh-pages` branch as the source.
-- The custom domain must be verified in GitHub repository **Settings > Pages**.
+- In GitHub repository **Settings > Pages**, select **Deploy from a branch**, using `gh-pages` and `/ (root)`.
+- Leave the custom domain field empty and do not add a `CNAME` file.
+- Keep `hugo.yaml` baseURL set to `https://lenzoman.github.io/bytes-n-stuff/`, including the repository path and trailing slash.
 
-The live site is served at `https://lenmahlangu.online/` from the `gh-pages` branch.
+The live site is served at `https://lenzoman.github.io/bytes-n-stuff/` from the `gh-pages` branch.
 
 ## Manual Deployment (Fallback)
 
@@ -82,15 +82,14 @@ Only needed if the script fails and you want to push manually.
 
 ```sh
 # From main branch
-hugo
+hugo --cleanDestinationDir
 
 # Recreate worktree
 rm -rf ../_ghp_worktree
 git worktree add -B gh-pages ../_ghp_worktree origin/gh-pages
 
 # Sync build output
-rsync -a --delete public/ ../_ghp_worktree/
-echo "lenmahlangu.online" > ../_ghp_worktree/CNAME
+rsync -a --delete --exclude='.git' public/ ../_ghp_worktree/
 touch ../_ghp_worktree/.nojekyll
 
 # Commit and push
@@ -113,8 +112,8 @@ cd -
 |-------|-------|-----|
 | Post not appearing on live site | Post marked as `draft: true` | Set `draft: false` in front matter, rebuild, and redeploy |
 | New post 404s | Not yet published to `gh-pages` | Run `./deploy.sh` and wait 1–2 min for GitHub Pages to rebuild |
-| Site shows 404 at custom domain | GitHub Pages not configured for custom domain | Verify DNS records and GitHub **Settings > Pages** has custom domain set |
-| Custom domain lost | Missing `CNAME` in `gh-pages` | Ensure `static/CNAME` exists with domain name, rebuild, and redeploy |
+| Site shows 404 at GitHub Pages URL | Incorrect publishing source or URL | Select `gh-pages` and `/ (root)` in **Settings > Pages** and visit `/bytes-n-stuff/` |
+| Site redirects to the old custom domain | Stale `CNAME` in published output | Remove `static/CNAME`, rebuild with `hugo --cleanDestinationDir`, and redeploy |
 | `fatal: 'gh-pages' is already used by worktree` | Stale worktree dir | `rm -rf ../_ghp_worktree && git worktree prune` then redeploy |
 | Nothing to publish | No changes detected in `public/` | Make content edits or force rebuild with `hugo`, then redeploy |
 | Wrong branch during deploy | Started on `gh-pages` | Checkout `main`, run script |
@@ -122,7 +121,7 @@ cd -
 
 General tips:
 
-- Always keep `hugo.yaml` baseURL aligned with the custom domain.
+- Always keep `hugo.yaml` baseURL aligned with `https://lenzoman.github.io/bytes-n-stuff/`.
 - Avoid committing generated site files to `main` (source files only; `public/` stays local).
 - Review the script before modifying deployment behavior.
 
